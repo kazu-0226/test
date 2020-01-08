@@ -1,0 +1,42 @@
+h1{
+    width:500px;
+    background-color:#f1f1f1;
+    border-left: 5px red solid;
+    padding-left: 10px;
+    font-size:20px;
+}
+
+.wrapper{
+    width:500px;
+    background-color:#f1f1f1;
+    padding-left: 10px;
+    padding-top:5px;
+    border-radius :5px;
+    border: 3px #bfbfbf solid;
+    
+    
+}
+
+label{
+    display: block;
+    font-size:15px;
+}
+
+.contact-container{
+    margin-top:5px;
+    
+   
+    
+}
+
+.btn{
+    color:white;
+    background-color:#bfbfbf;
+    border-radius :5px;
+    margin-bottom:15px;
+    border:1px solid lightgray;
+    border-bottom: 2px solid gray;
+    padding: 4px 10px;
+
+
+}

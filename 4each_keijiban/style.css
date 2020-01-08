@@ -1,0 +1,135 @@
+/*------------------------------
+共通
+------------------------------*/
+ul li {
+	list-style: none;
+}
+
+
+.btn {
+	background-color: darkgray;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 2px 2px black;
+	margin-bottom: 5px;
+}
+
+.btn:hover {
+	background-color: darkgray;
+	box-shadow: none;
+	transform: translate3d(0, 2px, 0);
+}
+
+/*------------------------------
+ページヘッダー
+------------------------------*/
+
+.container {
+	width: 100%;
+	height: 35px;
+	background-color: black;
+}
+
+header nav ul li {
+	display: inline;
+	color: white;
+	line-height: 35px;
+	padding-left: 100px;
+}
+
+/*------------------------------
+メインコンテンツ
+------------------------------*/
+/* コンテンツのレイアウト */
+.left {
+	float: left;
+	width: 60%;
+	height: auto;
+}
+
+.right {
+	width: 35%;
+	float: left;
+	margin-left: 30px;
+}
+
+/* 掲示板 */
+h1 {
+	width: 100%;
+	border-left: solid 3px black;
+	border-bottom: solid 3px black;
+
+}
+
+.board h2 {
+	border-left: solid 3px red;
+	padding-left: 3px;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: lightgray;
+	padding: 10px 0 10px 5px;
+	border: solid 3px darkgray;
+	border-radius: 5px;
+	margin-bottom: 30px;
+
+}
+
+label {
+	display: block;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+
+input.text {
+	width: 40%;
+}
+
+/* 掲示板入力 */
+.kiji {
+	width: 100%;
+	background-color: lightgray;
+	padding: 10px 0 10px 5px;
+	border: solid 3px darkgray;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.kiji h3{
+	border-bottom:solid 1px ;
+}
+
+
+/* コンテンツメニュー */
+.main-menu {
+	padding-top: 10px darkgray;
+}
+
+.main-menu--list {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.main-menu h2 {
+	border-bottom: dotted 5px darkgray;
+}
+
+.main-menu--list li {
+	margin-left: 10px;
+}
+
+/* フッター */
+
+footer {
+	clear: both;
+	width: 100%;
+	background-color: black;
+	height: 35px;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	
+}
